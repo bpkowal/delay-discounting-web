@@ -1,0 +1,15 @@
+#output from user input is their estimated indifference point at each of the seven delays
+$9.23
+IN 1 DAY
+$4.85
+IN 7 DAYS
+$9.53
+IN 30 DAYS
+$9.85
+IN 180 DAYS
+$7.98
+IN 365 DAYS
+$2.35
+IN 1825 DAYS
+$9.85
+IN 9125 DAYS
