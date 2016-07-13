@@ -1,0 +1,52 @@
+$def with (room)
+
+<p>***
+</p>
+<p>***
+</p>
+
+$if room.ss_d != "Task Complete":	
+	<table align="center">
+     	<thead>
+        	 <tr>
+            	<th>$room.ss_a $room.ss_d</th>
+             	<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+             	<th>_____________</th>
+             	<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+             	<th>$room.ll_a $room.ll_d</th>
+         	</tr>
+     	</thead>
+
+     	<tbody>
+			<tr>		
+				<td> Type-v </td>
+		    	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		    	<td>_____________</td>
+		    	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>			
+				<td> Type-n </td>
+			</tr>
+     	</tbody>
+	</table>
+
+<p>***
+</p>
+<p>***
+</p>
+
+$if room.ss_d != "Task Complete":	
+	<form align="center" action="/game" method="POST">
+      	<input type="text" name="action"><input type="submit"> 
+	</form>
+
+$if room.ll_a == "IN 1 DAY" and room.ss_d == "Task Complete":
+	<a href="http://localhost:8080/week"> go to next task </a>	
+$elif room.ll_a == "IN 7 DAYS" and room.ss_d == "Task Complete":
+    <a href="http://localhost:8080/month"> go to next task </a>
+$elif room.ll_a == "IN 30 DAYS" and room.ss_d == "Task Complete":
+    <a href="http://localhost:8080/6_months"> go to next task </a>
+$elif room.ll_a == "IN 180 DAYS" and room.ss_d == "Task Complete":
+    <a href="http://localhost:8080/year"> go to next task </a>
+$elif room.ll_a == "IN 365 DAYS" and room.ss_d == "Task Complete":
+    <a href="http://localhost:8080/5_years"> go to next task </a>
+$elif room.ll_a == "IN 1825 DAYS" and room.ss_d == "Task Complete":
+    <a href="http://localhost:8080/25_years"> go to next task </a>
