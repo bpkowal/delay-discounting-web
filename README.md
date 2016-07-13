@@ -1,5 +1,5 @@
-delay-discounting-web
-web.py python based adaptive algorithm for collecting indifference points
+#delay-discounting-web
+A web.py python based adaptive algorithm for collecting indifference points at a magnitude of $10
 
 not currently configured for deployment in public url but can be run locally on web browser
 dependencies need to be established >> I homebrewed and pip installed like a newbie while
