@@ -11,7 +11,7 @@ if running through Terminal (MAC) execute by entering the following commands aft
 then opening web browser (Safari) and navagating to  http://localhost:8080/
 
 if running in PowerShell or Cmd (PC) execute by entering the following commands after downlaod of skeleton
-  1. $env:PYTHONPATH = "$env:PYTHONPATH;."
+  1. $env:PYTHONPATH = "$env:PYTHONPATH;." or I hacked this together set PYTHONPATH=%PYTHONPAT%;C:\location of dir
   2. python bin/apple.py
 then opening web browser (Chrome) and navagating to  http://localhost:8080/
 
