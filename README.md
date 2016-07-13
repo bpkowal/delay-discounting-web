@@ -16,5 +16,8 @@ if running in PowerShell or Cmd (PC) execute by entering the following commands 
 then opening web browser (Chrome) and navagating to  http://localhost:8080/
 
 user data are saved to test.txt in main/setup to run one participant at a time with no ID
+test.txt will not close if user does not complete program and may cause subsiquent errors following first run
+
+ctrl-c is used to terminate program
 
 test folder is for running nosetests...
