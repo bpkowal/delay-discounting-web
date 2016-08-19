@@ -5,13 +5,13 @@ A web.py python based adaptive algorithm for collecting indifference points at a
 
 DEPENDENCIES 
 If you are new to Python try starting here...https://bootstrap.pypa.io/get-pip.py 
-  1. Install pip from http://pypi.python.org/pypi/pip
-  2. Use ... python -m pip install "--packages you need--"
+  1.  Install pip from http://pypi.python.org/pypi/pip
+  2.  Use ... python -m pip install "--packages you need--"
   3.  distribute from http://pypi.python.org/pypi/distribute
   4.  nose from http://pypi.python.org/pypi/nose/
   5.  virtualenv from http://pypi.python.org/pypi/virtualenv
   6.  lpthw.web ...this is just a fork of web.py made by the author of Learn Python the Hard Way
-  7.  Use ....[Environment]::SetEnvironmentVariable("Path","$env:Path;C:\Python27\Scripts", "User") 
+  7.  Just on PC use ....[Environment]::SetEnvironmentVariable("Path","$env:Path;C:\Python27\Scripts", "User") 
 
 
 If running through Terminal (MAC) execute by entering the following commands after download of skeleton
