@@ -4,16 +4,16 @@ A web.py python based adaptive algorithm for collecting indifference points at a
 not currently configured for deployment in public url but can be run locally on web browser
 
 Dependencies 
->> I homebrewed and pip installed like a newbie while
-crash coursing Learn Python the Hard Way
 >> If you are new to Python try starting here...https://bootstrap.pypa.io/get-pip.py 
   1. Install pip from http://pypi.python.org/pypi/pip
   2. Use ... python -m pip install "--packages you need--"
-     a. distribute from http://pypi.python.org/pypi/distribute
-     b. nose from http://pypi.python.org/pypi/nose/
-     c. virtualenv from http://pypi.python.org/pypi/virtualenv
-     d. lpthw.web ...this is just a fork of web.py made by the author of Learn Python the Hard Way
-  3. Use ....[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27\Scripts", "User") 
+  a. distribute from http://pypi.python.org/pypi/distribute
+  b. nose from http://pypi.python.org/pypi/nose/
+  c. virtualenv from http://pypi.python.org/pypi/virtualenv
+  d. lpthw.web ...this is just a fork of web.py made by the
+    author of Learn Python the Hard Way
+  3. Use ....[Environment]::SetEnvironmentVariable("Path", 
+    "$env:Path;C:\Python27\Scripts", "User") 
 
 
 
@@ -23,7 +23,8 @@ if running through Terminal (MAC) execute by entering the following commands aft
 then opening web browser (Safari) and navagating to  http://localhost:8080/
 
 if running in PowerShell or Cmd (PC) execute by entering the following commands after downlaod of skeleton
-  1. $env:PYTHONPATH = "$env:PYTHONPATH;." (works on Powershell) or I hacked this together set PYTHONPATH=%PYTHONPAT%;C:\location of dir (works on Cmd)
+  1. $env:PYTHONPATH = "$env:PYTHONPATH;." (works on Powershell) or 
+    I hacked this together set PYTHONPATH=%PYTHONPAT%;C:\location of dir (works on Cmd)
   2. python bin/apple.py
 then opening web browser (Chrome) and navagating to  http://localhost:8080/
 
