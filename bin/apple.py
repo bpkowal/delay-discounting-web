@@ -28,7 +28,7 @@ if web.config.get('_session') is None:
 	session = web.session.Session(app, store, initializer={'room': None})
 	web.config._session = session
 else:
-session = web.config._session
+	session = web.config._session
 
 # define render
 render = web.template.render('templates/', base="layout")
