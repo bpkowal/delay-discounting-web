@@ -28,7 +28,7 @@ app = app.wsgifunc()
 #    session = web.session.Session(app, store, initializer={'room': None})
 #    web.config._session = session
 #else:
-#    session = web.config._session
+session = web.config._session
 
 # define render
 render = web.template.render('templates/', base="layout")
@@ -36,26 +36,26 @@ render = web.template.render('templates/', base="layout")
 class index(object):
     def GET(self):
 #sets initial values
-	    session.room = map.START        
-	    web.seeother("/game")		
+	session.room = map.START
+	web.seeother("/game")		
 
 class reindex(object):
     def GET(self):
 #sets initial values
-	    session.room = map.reSTART        
-	    web.seeother("/game")	
+	session.room = map.reSTART
+	web.seeother("/game")	
 
 class reindex_2(object):
     def GET(self):
 #sets initial values
-	    session.room = map.reSTART_2        
-	    web.seeother("/game")
+	session.room = map.reSTART_2
+	web.seeother("/game")
 
 class reindex_3(object):
     def GET(self):
 #sets initial values
-	    session.room = map.reSTART_3        
-	    web.seeother("/game")
+	session.room = map.reSTART_3
+	web.seeother("/game")
 	
 class reindex_4(object):
     def GET(self):
