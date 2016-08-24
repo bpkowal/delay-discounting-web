@@ -26,7 +26,7 @@ app = app.wsgifunc()
 if web.config.get('_session') is None:
     store = web.session.DiskStore('sessions')
     session = web.session.Session(app, store,
-                                  initializer={'room': None})
+        initializer={'room': None})
     web.config._session = session
 else:
     session = web.config._session
@@ -37,56 +37,47 @@ render = web.template.render('templates/', base="layout")
 class index(object):
     def GET(self):
 #sets initial values
-		session.room = map.START        
-		
-		web.seeother("/game")		
+	    session.room = map.START        
+	    web.seeother("/game")		
 
 class reindex(object):
     def GET(self):
 #sets initial values
-		session.room = map.reSTART        
-		
-		web.seeother("/game")	
+	    session.room = map.reSTART        
+	    web.seeother("/game")	
 
 class reindex_2(object):
     def GET(self):
 #sets initial values
-		session.room = map.reSTART_2        
-		
-		web.seeother("/game")
+	    session.room = map.reSTART_2        
+	    web.seeother("/game")
 
 class reindex_3(object):
     def GET(self):
 #sets initial values
-		session.room = map.reSTART_3        
-		
-		web.seeother("/game")
+	    session.room = map.reSTART_3        
+	    web.seeother("/game")
 	
 class reindex_4(object):
     def GET(self):
 #sets initial values
-		session.room = map.reSTART_4        
-		
-		web.seeother("/game")
+        session.room = map.reSTART_4        
+        web.seeother("/game")
 
 class reindex_5(object):
     def GET(self):
 #sets initial values
-		session.room = map.reSTART_5        
-		
-		web.seeother("/game")
+        session.room = map.reSTART_5        
+        web.seeother("/game")
 
 class reindex_6(object):
     def GET(self):
 #sets initial values
-		session.room = map.reSTART_6        
-		
-		web.seeother("/game")
+        session.room = map.reSTART_6        
+        web.seeother("/game")
 
 class GameEngine(object):
-
     def GET(self):
-    
         if session.room.ss_d == "Task Complete":
     		f.write(session.room.ss_a)
     		f.write("\n")
@@ -94,25 +85,22 @@ class GameEngine(object):
     		f.write("\n")
     		print session.room.ss_a
     		print session.room.ll_a
-        	if session.room.ll_a =="IN 9125 DAYS":
-        		f.close()
-        		
+            if session.room.ll_a =="IN 9125 DAYS":
+                f.close()
+
         if session.room:
             return render.show_room(room=session.room)
         else:          
             return render.you_died()
 
-
-			
     def POST(self):
         form = web.input(action=None)
 
-    	if form.action:
-        	if form.action=="n" or form.action=="v":
-        		session.room = session.room.go(form.action)
-        	else:
-        		session.room = session.room
-       
+        if form.action:
+            if form.action=="n" or form.action=="v":
+                session.room = session.room.go(form.action)
+            else:
+                session.room = session.room
         web.seeother("/game")
 
 if __name__ == "__main__":
