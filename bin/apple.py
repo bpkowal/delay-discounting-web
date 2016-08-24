@@ -85,8 +85,8 @@ class GameEngine(object):
     		f.write("\n")
     		print session.room.ss_a
     		print session.room.ll_a
-            if session.room.ll_a =="IN 9125 DAYS":
-                f.close()
+		if session.room.ll_a =="IN 9125 DAYS":
+			f.close()
 
         if session.room:
             return render.show_room(room=session.room)
@@ -98,10 +98,10 @@ class GameEngine(object):
 
         if form.action:
             if form.action=="n" or form.action=="v":
-                session.room = session.room.go(form.action)
+            	session.room = session.room.go(form.action)
             else:
-                session.room = session.room
+            	session.room = session.room
         web.seeother("/game")
 
 if __name__ == "__main__":
-    app.run()
+	app.run()
