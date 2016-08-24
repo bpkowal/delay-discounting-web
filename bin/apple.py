@@ -18,6 +18,9 @@ urls = (
 )
 
 app = web.application(urls, globals())
+# little hack so that it runs on the web instead of just on your computer
+app = app.wsgifunc()
+
 
 # little hack so that debug mode works with sessions
 if web.config.get('_session') is None:
