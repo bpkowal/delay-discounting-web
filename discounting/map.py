@@ -151,8 +151,8 @@ up_one.add_paths({
 
 #trial 3
 up_one_d1.add_paths({
-    'v' : up_one_d1_u1,
-    'n' : up_one_d2
+    'v' : up_one_d2,
+    'n' : up_one_d1_u1
 })
 up_two.add_paths({
     'v' : up_two_d1,
