@@ -161,12 +161,12 @@ up_two.add_paths({
 
 #trial 4
 up_one_d2.add_paths({
-    'v' : up_one_d2_u1,
-    'n' : up_one_d3
+    'v' : up_one_d3,
+    'n' : up_one_d2_u1
 })
 up_one_d1_u1.add_paths({
-    'v' : up_one_d1_u2,
-    'n' : up_one_d1_u1_d1
+    'v' : up_one_d1_u1_d1,
+    'n' : up_one_d1_u2
 })
 up_two_d1.add_paths({
     'v' : up_two_d2,
