@@ -396,8 +396,8 @@ up_week_one.add_paths({
 
 #trial 3
 up_week_one_d1.add_paths({
-    'v' : up_week_one_d1_u1,
-    'n' : up_week_one_d2
+    'v' : up_week_one_d2,
+    'n' : up_week_one_d1_u1
 })
 up_week_two.add_paths({
     'v' : up_week_two_d1,
@@ -406,12 +406,12 @@ up_week_two.add_paths({
 
 #trial 4
 up_week_one_d2.add_paths({
-    'v' : up_week_one_d2_u1,
-    'n' : up_week_one_d3
+    'v' : up_week_one_d3,
+    'n' : up_week_one_d2_u1
 })
 up_week_one_d1_u1.add_paths({
-    'v' : up_week_one_d1_u2,
-    'n' : up_week_one_d1_u1_d1
+    'v' : up_week_one_d1_u1_d1,
+    'n' : up_week_one_d1_u2
 })
 up_week_two_d1.add_paths({
     'v' : up_week_two_d2,
@@ -641,8 +641,8 @@ up_month_one.add_paths({
 
 #trial 3
 up_month_one_d1.add_paths({
-    'v' : up_month_one_d1_u1,
-    'n' : up_month_one_d2
+    'v' : up_month_one_d2,
+    'n' : up_month_one_d1_u1
 })
 up_month_two.add_paths({
     'v' : up_month_two_d1,
@@ -651,12 +651,12 @@ up_month_two.add_paths({
 
 #trial 4
 up_month_one_d2.add_paths({
-    'v' : up_month_one_d2_u1,
-    'n' : up_month_one_d3
+    'v' : up_month_one_d3,
+    'n' : up_month_one_d2_u1
 })
 up_month_one_d1_u1.add_paths({
-    'v' : up_month_one_d1_u2,
-    'n' : up_month_one_d1_u1_d1
+    'v' : up_month_one_d1_u1_d1,
+    'n' : up_month_one_d1_u2
 })
 up_month_two_d1.add_paths({
     'v' : up_month_two_d2,
@@ -886,8 +886,8 @@ up_6_months_one.add_paths({
 
 #trial 3
 up_6_months_one_d1.add_paths({
-    'v' : up_6_months_one_d1_u1,
-    'n' : up_6_months_one_d2
+    'v' : up_6_months_one_d2,
+    'n' : up_6_months_one_d1_u1
 })
 up_6_months_two.add_paths({
     'v' : up_6_months_two_d1,
@@ -896,12 +896,12 @@ up_6_months_two.add_paths({
 
 #trial 4
 up_6_months_one_d2.add_paths({
-    'v' : up_6_months_one_d2_u1,
-    'n' : up_6_months_one_d3
+    'v' : up_6_months_one_d3,
+    'n' : up_6_months_one_d2_u1
 })
 up_6_months_one_d1_u1.add_paths({
-    'v' : up_6_months_one_d1_u2,
-    'n' : up_6_months_one_d1_u1_d1
+    'v' : up_6_months_one_d1_u1_d1,
+    'n' : up_6_months_one_d1_u2
 })
 up_6_months_two_d1.add_paths({
     'v' : up_6_months_two_d2,
@@ -1131,8 +1131,8 @@ up_year_one.add_paths({
 
 #trial 3
 up_year_one_d1.add_paths({
-    'v' : up_year_one_d1_u1,
-    'n' : up_year_one_d2
+    'v' : up_year_one_d2,
+    'n' : up_year_one_d1_u1
 })
 up_year_two.add_paths({
     'v' : up_year_two_d1,
@@ -1141,12 +1141,12 @@ up_year_two.add_paths({
 
 #trial 4
 up_year_one_d2.add_paths({
-    'v' : up_year_one_d2_u1,
-    'n' : up_year_one_d3
+    'v' : up_year_one_d3,
+    'n' : up_year_one_d2_u1
 })
 up_year_one_d1_u1.add_paths({
-    'v' : up_year_one_d1_u2,
-    'n' : up_year_one_d1_u1_d1
+    'v' : up_year_one_d1_u1_d1,
+    'n' : up_year_one_d1_u2
 })
 up_year_two_d1.add_paths({
     'v' : up_year_two_d2,
@@ -1376,8 +1376,8 @@ up_5_years_one.add_paths({
 
 #trial 3
 up_5_years_one_d1.add_paths({
-    'v' : up_5_years_one_d1_u1,
-    'n' : up_5_years_one_d2
+    'v' : up_5_years_one_d2,
+    'n' : up_5_years_one_d1_u1
 })
 up_5_years_two.add_paths({
     'v' : up_5_years_two_d1,
@@ -1386,12 +1386,12 @@ up_5_years_two.add_paths({
 
 #trial 4
 up_5_years_one_d2.add_paths({
-    'v' : up_5_years_one_d2_u1,
-    'n' : up_5_years_one_d3
+    'v' : up_5_years_one_d3,
+    'n' : up_5_years_one_d2_u1
 })
 up_5_years_one_d1_u1.add_paths({
-    'v' : up_5_years_one_d1_u2,
-    'n' : up_5_years_one_d1_u1_d1
+    'v' : up_5_years_one_d1_u1_d1,
+    'n' : up_5_years_one_d1_u2
 })
 up_5_years_two_d1.add_paths({
     'v' : up_5_years_two_d2,
@@ -1621,8 +1621,8 @@ up_25_years_one.add_paths({
 
 #trial 3
 up_25_years_one_d1.add_paths({
-    'v' : up_25_years_one_d1_u1,
-    'n' : up_25_years_one_d2
+    'v' : up_25_years_one_d2,
+    'n' : up_25_years_one_d1_u1
 })
 up_25_years_two.add_paths({
     'v' : up_25_years_two_d1,
@@ -1631,12 +1631,12 @@ up_25_years_two.add_paths({
 
 #trial 4
 up_25_years_one_d2.add_paths({
-    'v' : up_25_years_one_d2_u1,
-    'n' : up_25_years_one_d3
+    'v' : up_25_years_one_d3,
+    'n' : up_25_years_one_d2_u1
 })
 up_25_years_one_d1_u1.add_paths({
-    'v' : up_25_years_one_d1_u2,
-    'n' : up_25_years_one_d1_u1_d1
+    'v' : up_25_years_one_d1_u1_d1,
+    'n' : up_25_years_one_d1_u2
 })
 up_25_years_two_d1.add_paths({
     'v' : up_25_years_two_d2,
