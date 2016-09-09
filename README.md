@@ -18,7 +18,7 @@ from apple import application
 
 
 
-DEPENDENCIES FOR RUNNING LOCALLY
+DEPENDENCIES FOR RUNNING LOCALLY ONLY
 If you are new to Python run local first and try starting here...https://bootstrap.pypa.io/get-pip.py 
   1.  Install pip from http://pypi.python.org/pypi/pip
   2.  Use ... python -m pip install "--packages you need--"
@@ -31,15 +31,18 @@ If you are new to Python run local first and try starting here...https://bootstr
 If running through Terminal (MAC) execute by entering the following commands after download of skeleton
   1. export PYTHONPATH=$PYTHONPATH:.
   2. python bin/apple.py
-then opening web browser (Safari) and navagating to  http://localhost:8080/
+  3. then opening web browser (Safari) and navagating to  http://localhost:8080/ or pythonanywhere web address for example
+http://pysch592.pythonanywhere.com
 
 If running in PowerShell or Cmd (PC) execute by entering the following commands after downlaod of skeleton
   1. $env:PYTHONPATH = "$env:PYTHONPATH;." (works on Powershell) or set PYTHONPATH=%PYTHONPAT%;C:\location of dir (works on Cmd)
   2. python bin/apple.py
-then opening web browser (Chrome) and navagating to  http://localhost:8080/
+  3. then opening web browser (Chrome) and navagating to  http://localhost:8080/ or pythonanywhere web address for example
+http://pysch592.pythonanywhere.com
 
-user data are saved to test.txt in main/setup to run one participant at a time with no ID
-test.txt will not close if user does not complete program and may cause subsiquent errors following first run
+User data are saved to test.txt in main.
+Setup to run one participant at a time with no user ID
+test.txt will not close if user does not complete program and may cause subsiquent errors following runs without reloading on server.
 
 ctrl-c is used to terminate program
 
